@@ -1,0 +1,239 @@
+
+body {
+font-family: 'Quicksand', sans-serif;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+text-decoration: none;
+}
+.wrapper {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    }
+header.top_header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+header.top_header .wrapper nav.nav-style ul {
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+}
+header.top_header .wrapper nav.nav-style ul li {
+    list-style-type: none;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+header.top_header .wrapper nav.nav-style ul li a {
+   color: inherit;
+   text-decoration: none;
+   transition: all 300ms ease-in-out;
+}
+header.top_header .wrapper nav.nav-style ul li a:hover {
+   color: rgb(182, 49, 194); 
+   font-weight: bold;
+   transition: all 300ms easy-in-out;
+ }
+ .page_heading {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 200px; 
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .page_heading.about_page {
+     background: transparent url(images/pic1.png) center center no-repeat;
+     border-radius: 5px;
+    }
+ .page_heading h2 {
+     font-family: Quicksand;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 50px;
+     line-height: 62px;
+     color: white;
+ }
+ .page_heading span.subtitle {
+    font-family: Waiting for the Sunrise;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+}
+
+
+.about_box {
+    display: flex;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+}
+.about_box .item_data:first-child {
+    width: 35%;
+    padding-left: 25px;
+    padding-right: 45px;
+}
+.about_box .item_data:last-child {
+    width: 35%;
+    padding-left: 45px;
+    padding-right: 25px;
+}
+.about_box .item_data article {
+    margin-bottom: 40px;
+}
+.about_box .item_data article:last-child {
+    margin-bottom: 0px;
+}
+.about_box .item_data article h3{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgb(151, 33, 175);
+    margin-bottom: 12px;
+    }
+    .about_box .item_data article p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        color: rgb(82, 78, 78);
+        margin-bottom: 12px;
+        }
+
+
+    .wall {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 200px; 
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent url(images/pic2.png) center center no-repeat;
+    }
+    .wall h2.box_title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 62px;
+        color: black;
+    }
+    .wall .subtitle {
+        font-family: Waiting for the Sunrise;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 40px;
+        color: black;
+        margin-bottom: 60px;
+    }
+    .team_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .team_list .team_member {
+        width: calc(50% - 110px);
+        background: rgb(42, 184, 209);
+        border-radius: 5px;
+        margin-bottom: 40px;
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .team_list .team_member .image img {
+        border-radius: 100%;
+        margin-left: -100px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .team_list .team_member .data {
+        margin-left: 17px;
+    }
+    .team_list .team_member .data .name {
+        display: block;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        color: rgb(253, 249, 249);
+    }
+    .team_list .team_member .data .post {
+        display: block;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        color: rgb(146, 34, 137);
+        margin-bottom: 14px;
+    }
+    .team_list .team_member .data p {
+        display: block;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 25px;
+        color: rgb(22, 21, 24);
+    }
+    .team_list .team_member .data p:nth-child(3),
+    .team_list .team_member .data p:nth-child(4) {
+       padding-right: 10px;  
+    }
+
+    .team_list .team_member:nth-child(2),
+    .team_list .team_member:nth-child(3) {
+        background: rgb(54, 204, 122);
+    }
+   
+    footer {
+        display: flex;
+        height: 80px;
+        background-color: rgb(214, 107, 187);
+        border-radius: 5px;
+        align-items: flex-start; 
+        align-items: center;
+    }
+    .icon {
+        margin-left: 10px; 
+    }
+    .footer_text {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .footer_text ul {
+        display: flex;
+        font-size: 18px;
+    }
+    .footer_text ul li {
+        list-style-type: none;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .footer_text ul li a {
+        color: inherit;
+        text-decoration: none;
+     }
+     .footer_text ul li a:hover {
+        color: rgb(78, 7, 85); 
+        font-weight: bold;
+        transition: all 300ms easy-in-out;
+      }
+   
