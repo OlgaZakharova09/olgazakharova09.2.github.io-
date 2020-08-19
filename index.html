@@ -5,6 +5,7 @@
     <title>Sushi</title>
     <link href="main.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header class="top_header">
@@ -43,7 +44,7 @@
               </article>
 
               <article>
-                <h3>Fresh ingredients</h3>  
+                <h3>Fresh products</h3>  
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
               </article>
         </div>
@@ -137,3 +138,16 @@
     </div>
     </footer>
     </html> 
+    
+    <script>
+    $(function() {
+        $('.logo').animate({
+            opacity: 1.0, marginTop: "0px"
+            }, 500 );
+        });
+    $(function() {
+        $('.nav-style').animate({
+            opacity: 1.0, marginTop: "0px"
+            }, 500 );
+        });
+    </script>
