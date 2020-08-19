@@ -236,4 +236,12 @@ header.top_header .wrapper nav.nav-style ul li a:hover {
         font-weight: bold;
         transition: all 300ms easy-in-out;
       }
+        .logo {
+        opacity: 0.2;
+        margin-top: -30px;
+      }
+      .nav-style {
+        opacity: 0.2;
+        margin-top: -30px;
+      }
    
